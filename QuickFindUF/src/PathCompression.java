@@ -18,7 +18,7 @@ public class PathCompression {
         }
     }
 
-    private int root(int i) {
+    public int root(int i) {
         validate(i);
         while (i != id[i]) {
             id[i] = id[id[i]];
