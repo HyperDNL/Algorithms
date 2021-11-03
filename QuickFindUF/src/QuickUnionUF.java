@@ -15,7 +15,7 @@ public class QuickUnionUF {
         }
     }
 
-    private int root(int i) {
+    public int root(int i) {
         validate(i);
         while (i != id[i]) { // i = 1 id[i] = 1 -> false
             i = id[i]; // i = break
